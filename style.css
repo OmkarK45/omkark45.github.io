@@ -246,7 +246,7 @@ header nav li:last-child{
 }
 @media(max-width:768px){
     .card-1, .card-2, .card-3{
-        margin: auto 50px;
+        margin: auto 30px;
         margin-bottom: 25px;
     }
 }
