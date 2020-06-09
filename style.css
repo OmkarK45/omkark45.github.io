@@ -65,17 +65,20 @@ header nav li:last-child{
         margin: 0 7px;
     }
 }
+.fixed-top img{
+    width: 6%;
+}
 @media(max-width:768px){
     .fixed-top img{
         width: 20%;
         padding-bottom: 20px;
     }
 }
-@media(max-width:768px){
+/* @media(max-width:768px){
     .fixed-top img{
         width: 9%;
     }
-}
+} */
 .banner-area .banner-img{
     background-image: url('/assets/bg3.jpg');
     background-image: url('/assets/1.jpg');
@@ -166,6 +169,11 @@ header nav li:last-child{
 }
 .myImage img{
     border-radius: 16px;
+}
+@media(max-width:768px){
+    .myImage img{
+        width: 80%;
+    }
 }
 .section-3{
     background-color: #fff;
@@ -470,4 +478,9 @@ ul.timeline>li:before{
 .section-7 {
     background-image: url(/assets/conntect-bg.png);
     background-repeat: no-repeat;
+}
+@media(max-width:768px){
+    .section-7{
+        background-image: none;
+    }
 }
