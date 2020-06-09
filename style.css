@@ -328,7 +328,7 @@ header nav li:last-child{
 }
 @media(max-width:768px){
     .work-cards .col-lg-4{
-        margin: auto 50px;
+        margin: auto 30px;
         margin-bottom: 25px;
     }
     .work-cards .col-lg-4 img{
