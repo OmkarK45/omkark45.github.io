@@ -71,7 +71,11 @@ header nav li:last-child{
         padding-bottom: 20px;
     }
 }
-
+@media(max-width:768px){
+    .fixed-top img{
+        width: 9%;
+    }
+}
 .banner-area .banner-img{
     background-image: url('/assets/bg3.jpg');
     background-image: url('/assets/1.jpg');
